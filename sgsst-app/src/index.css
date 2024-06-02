@@ -1,0 +1,28 @@
+/* index.css */
+
+/* Reseteo básico de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer una fuente base para la aplicación */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #185880;
+  color: #333;
+}
+
+/* Estilos globales adicionales */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+
+/* Estilo para centrar contenido en toda la página, si es necesario */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
